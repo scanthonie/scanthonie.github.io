@@ -3,7 +3,7 @@ layout: post
 title: 用D3实现有动画效果的饼状图
 ---
 
-饼状图是数据可视化中最为常见的一种图形了，尤其适合展示多个分类所占百分比。饼状图用D3很容易实现，但是如何给饼状图加入动画效果，则具有一定的难度。本文将介绍如何用D3（v4）实现饼状图的动画效果。[请先点击此处，预览最终的效果。](https://scanthonie.github.io/d3-data-visualization-snippets/a001/index.html)
+饼状图是数据可视化中最为常见的一种图形了，尤其适合展示多个分类所占百分比。饼状图用D3很容易实现，但是如何给饼状图加入动画效果，则具有一定的难度。本文将介绍如何用D3（v4）实现饼状图的动画效果。<a href="https://scanthonie.github.io/d3-data-visualization-snippets/a001/index.html" target="_blank">请先点击此处，预览最终的效果。</a>
 
 ## First things first
 
@@ -189,3 +189,5 @@ function getArcInterpolator(el, d) {
 {% endhighlight %}
 
 最后，在`exec()`函数中调用`plot_pie()`函数，即可实现绘图。同时也别忘了在`index.html`中加入调用`show()`函数的Javascript代码哦。
+
+[本示例的完整代码，请在这里查看。](https://github.com/scanthonie/d3-data-visualization-snippets/tree/master/a001)
