@@ -249,7 +249,7 @@ function execAxis(xScale, yScale) {
 }
 {% endhighlight %}
 
-再添加`execMouseTracker()`函数，它先添加曲线上指示数值的圆点和数值，然后再添加一根竖直的直线。接着，绑定`mouseover`、`mouseout`和`mousemove`这三个时间的回调函数，分别起到显示、隐藏和移动修改数值指示器的效果。
+再添加`execMouseTracker()`函数，它先添加曲线上指示数值的圆点和数值，然后再添加一根竖直的直线。接着，绑定`mouseover`、`mouseout`和`mousemove`这三个事件的回调函数，分别起到显示、隐藏和移动修改数值指示器的效果。
 
 {% highlight javascript %}
 function execMouseTracker(xScale, yScale, data1) {
