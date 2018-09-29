@@ -331,6 +331,53 @@ function mousemove() {
 }
 {% endhighlight %}
 
+`monthToNum()`函数用以将英语的月份转换为数值。
+
+{% highlight javascript %}
+function monthToNum(xMonth) {
+  var d = 0;
+  switch (xMonth) {
+    case 'Jan.':
+      d = 1;
+      break;
+    case 'Feb.':
+      d = 2;
+      break;
+    case 'Mar.':
+      d = 3;
+      break;
+    case 'Apr.':
+      d = 4;
+      break;
+    case 'May':
+      d = 5;
+      break;
+    case 'June':
+      d = 6;
+      break;
+    case 'Jul.':
+      d = 7;
+      break;
+    case 'Aug.':
+      d = 8;
+      break;
+    case 'Sept.':
+      d = 9;
+      break;
+    case 'Oct.':
+      d = 10;
+      break;
+    case 'Nov.':
+      d = 11;
+      break;
+    case 'Dec.':
+      d = 12;
+      break;
+  }
+  return d;
+}
+{% endhighlight %}
+
 最后在HTML页面中，用Javascript代码调用`show()`函数，就大功告成了。
 
 [本示例的完整代码，请在这里查看。](https://github.com/scanthonie/d3-data-visualization-snippets/tree/master/a002)
