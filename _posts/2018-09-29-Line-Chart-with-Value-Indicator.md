@@ -5,7 +5,7 @@ title: 用D3实现有数值提示线的线图
 
 线图常用来展示时间序列数据。本文将介绍如何用D3（v4）实现有色阶过渡效果的线图，同时为它添加数值指示线。最终的成品效果如下：
 
-<iframe width="520" height="385" src="https://scanthonie.github.io/d3-data-visualization-snippets/a002/viz.html" frameborder="0" allowfullscreen></iframe>
+<iframe width="520" height="390" style="overflow:hidden;" src="https://scanthonie.github.io/d3-data-visualization-snippets/a002/viz.html" frameborder="0" allowfullscreen></iframe>
 
 <a href="https://scanthonie.github.io/d3-data-visualization-snippets/a002/index.html" target="_blank">点击此处，在新的页面中查看。</a>
 
