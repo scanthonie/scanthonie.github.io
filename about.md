@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### About me
 
-### More Information
+Hi, I am Anthonie, a data visualization developer. My field of interest include d3.js, React, R and Python. I am passionate about exploring data and presenting them with visualization in an elegant manner.
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+You can reach me via email: scfandi @AT@ hotmail.com :-)
