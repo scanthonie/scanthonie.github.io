@@ -7,7 +7,7 @@ title: 用D3实现鼠标滑动时的圆点随机跳动效果
 
 <iframe width="520" height="390" style="overflow:hidden;" src="https://scanthonie.github.io/d3-data-visualization-snippets/a003/index.html" frameborder="0" allowfullscreen></iframe>
 
-<a href="https://scanthonie.github.io/d3-data-visualization-snippets/a003/index.html" target="_blank">点击此处，在新的页面中查看。_</a>
+<a href="https://scanthonie.github.io/d3-data-visualization-snippets/a003/index.html" target="_blank">点击此处，在新的页面中查看。</a>
 
 ## 准备工作
 
