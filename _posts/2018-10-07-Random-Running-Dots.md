@@ -15,7 +15,7 @@ title: 用D3实现鼠标滑动时的圆点随机跳动效果
 
 ## 编写`draw_svg1.js`
 
-`draw_svg1.js`中的全部代码，都包含在一个叫`show()`的函数之中。这个项目的实现，主要依靠D3的`force`布局来实现。首先，参考[Mike Bostock 的这篇文章](https://bl.ocks.org/mbostock/b1f0ee970299756bc12d60aedf53c13b)，创建一个用来为各个节点 (node) 独立进行力模拟的`isolate()`函数，稍后将用它来包裹D3的`force.initialize()`函数：
+`draw_svg1.js`中的全部代码，都包含在一个叫`show()`的函数之中。这个项目的实现，主要依靠D3的`force`布局来实现。首先，参考[Mike Bostock 的这篇文章](https://bl.ocks.org/mbostock/b1f0ee970299756bc12d60aedf53c13b)，创建一个用来为各个节点 (node) 独立进行力仿真的`isolate()`函数，稍后将用它来包裹D3的`force.initialize()`函数：
 
 {% highlight javascript %}
 function isolate(force, filter) {
@@ -64,7 +64,7 @@ var canvas1 = d3
   .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 {% endhighlight %}
 
-创建一个用于力模拟的对象`simulation`。`alphaDecay(0)`确保了圆点能始终保持跳动效果，而不会在等待一段事件后便失去跳动效果。`force('collision', d3.forceCollide(10).strength(1))`让圆点之间产生碰撞的效果，不会重叠在一起。
+创建一个用于力仿真的对象`simulation`。`alphaDecay(0)`确保了圆点能始终保持跳动效果，而不会在等待一段事件后便失去跳动效果。`force('collision', d3.forceCollide(10).strength(1))`让圆点之间产生碰撞的效果，不会重叠在一起。
 
 {% highlight javascript %}
 var simulation = d3
